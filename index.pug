@@ -1,0 +1,14 @@
+extends ./templates/layout
+block head
+        +meta('one','two','three')
+        +title('crosspointe')
+block main
+        .hero.is-fullheight
+                .hero-body
+                        .container 
+        .hero.is-medium.is-primary.is-bold
+                .hero-body
+                        .container
+                                h1.title Primary bold title
+                                h2.sub-title Primary bold title
+

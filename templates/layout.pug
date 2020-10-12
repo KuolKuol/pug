@@ -1,0 +1,14 @@
+include ../abstracts/mixins
+doctype html
+html(lang="en")
+    head
+        block head
+        link(rel="stylesheet", href="../scss/main.scss")
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
+        <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    body
+        include ../templates/header
+        main.main#main
+            block main
+        include ../templates/footer
+        
